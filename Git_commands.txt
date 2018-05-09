@@ -1,0 +1,62 @@
+
+时间:2018-05-08
+
+配置Git
+git config --global user.name "your name"
+git config --global user.email "emain@example.com"
+
+
+mkdir   创建文件夹
+cd	跳转
+pwd	显示当前路径
+
+
+git init		创建仓库
+
+git add readme.txt	把文件添加到仓库
+git commit -m “说明”	把文件提交到仓库
+两者配合使用，添加之后要提交
+
+git status		查看仓库当前状态（查看仓库文件是否有修改） 
+git diff readme.txt	查看文件区别（本地文件与仓库文件差异）
+
+
+git log 		查看历史记录
+
+cat readme.txt		查看文件内容
+
+git reset --head xxx	退回xxx版本（xxx版本：可以通过git log来查看，xxx为十六进制数前几（6）位）
+
+/*******************************************
+
+*******************************************/
+时间:2018-05-09
+
+
+git reflog		查看执行的操作命令
+
+git remote add origin https://github.com/Lovefy/learngit.git
+//把本地仓库关联到远程仓库
+git push -u origin master	//把本地仓库内容第一次同步到远程仓库
+git push origin master		//把本地仓库内容同步到远程仓库
+
+
+git clone https://github.com/Lovefy/gitskills.git	//克隆https://github.com/Lovefy/gitskills.git仓库到本地
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
